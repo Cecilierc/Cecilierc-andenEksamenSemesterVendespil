@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vendespil</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="java.js" defer></script>
+</head>
+<body>
+  <div class="spillere-info">
+    <div id="spiller1" class="spiller aktiv">
+      <div class="spiller-indhold">
+        <img id="ikon1" class="spiller-ikon" src="img/orange_mand.png" alt="Spiller 1 ikon">
+        <div>
+          Spiller 1<br>
+          Point: <span id="score1">0</span>
+        </div>
+      </div>
+    </div>
+  
+    <div id="spiller2" class="spiller">
+      <div class="spiller-indhold">
+        <div>
+          Spiller 2<br>
+          Point: <span id="score2">0</span>
+        </div>
+        <img id="ikon2" class="spiller-ikon" src="img/hvid_mand.png" alt="Spiller 2 ikon">
+      </div>
+    </div>
+  </div>  
+  <div id="game-board"></div>
+
+  <div id="popup-card" class="popup-skjult">
+    <button id="luk-popup">&times;</button>
+    <div id="popup-indhold"></div>
+  </div>
+
+</body>
+</html>
