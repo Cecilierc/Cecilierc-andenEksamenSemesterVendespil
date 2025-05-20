@@ -6,8 +6,8 @@ const score2Display = document.getElementById("score2"); // Visning af spillersc
 // Initialisering af spillernes score
 let score1 = 0; // Score for spiller 1
 let score2 = 0; // Score for spiller 2
-let flippedCards = []; // Array til at gemme omvendte kort
-let lockBoard = false; // Flag til at låse spillepladen
+let flippedCards = []; 
+let lockBoard = false; // Til at låse spillepladen
 let currentPlayer = 0; // Indikerer hvilken spiller der er aktiv
 
 // Værdierne for kortene
